@@ -180,10 +180,6 @@
                               {
                                   "label": "Azure Active Directory",
                                   "value": "AzureActiveDirectory"
-                              },
-                              {
-                                  "label": "Active Directory (requires Microsoft Defender for Identity)",
-                                  "value": "ActiveDirectory"
                               }
                           ],
                           "required": false
