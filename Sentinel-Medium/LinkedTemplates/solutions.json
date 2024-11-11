@@ -32,8 +32,8 @@
     "variables": {},
     "resources": [
         {
-            "condition": "[contains(parameters('enableSolutions1P'), 'AzureAD')]",
-            "name": "AzureAD",
+            "condition": "[contains(parameters('enableSolutions1P'), 'Entra ID')]",
+            "name": "Entra ID",
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2021-04-01",
             "properties": {
